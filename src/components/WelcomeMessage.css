@@ -1,0 +1,18 @@
+.welcome-message {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.5);
+    font-size: 2rem;
+    font-weight: bold;
+    color: #66fcf1;
+    opacity: 0;
+    transition: all 1s ease;
+    z-index: 2000;
+  }
+  
+  .welcome-message.show {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  

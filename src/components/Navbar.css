@@ -1,0 +1,36 @@
+.navbar {
+    background: #1b1a55;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-left img {
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+  }
+  
+  .navbar-right {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  .navbar-right a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .navbar-right a:hover {
+    color: #66fcf1;
+  }  
